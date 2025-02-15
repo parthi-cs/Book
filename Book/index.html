@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Book Reading & Ordering</h1>
+
+        <form id="bookForm">
+            <input type="text" id="title" placeholder="Enter Book Title" required>
+            <input type="text" id="author" placeholder="Enter Author" required>
+            <button type="submit">Add to Reading List</button>
+        </form>
+
+        <h3>📖 Suggested Famous Books</h3>
+        <ul id="suggestions"></ul>
+
+        <h3>📖 Reading List</h3>
+        <ul id="readingList"></ul>
+
+        <h3>🛒 Cart</h3>
+        <ul id="cartList"></ul>
+        
+        <h3>🛍️ Payment</h3>
+        <button id="payBtn">Pay for Selected Books</button>
+
+        <h3>🛒 Ordered Books</h3>
+        <ul id="orderedList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

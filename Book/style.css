@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fd6569; /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fd6569;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+input, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #fd6569;
+    border-radius: 5px;
+}
+
+button {
+    background: #007bff;
+    color: #fd6569;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background:#fd6569;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order, .delete, .cart-add, .pay {
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+}
+
+.order {
+    background: green;
+    color: #fd6569;
+}
+
+.order:hover {
+    background: darkgreen;
+}
+
+.delete {
+    background: red;
+    color: #fd6569;
+}
+
+.delete:hover {
+    background: darkred;
+}
+
+.cart-add {
+    background: #ffa500;
+    color: #fd6569;
+}
+
+.cart-add:hover {
+    background: #e68900;
+}
+
+.pay {
+    background: #28a745;
+    color: #fd6569;
+}
+
+.pay:hover {
+    background: #218838;
+}
